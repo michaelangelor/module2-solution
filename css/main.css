@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+	color: white;
+	}
+
+h1{
+	margin-bottom: .5em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #424242;
+	border-bottom: 3px solid gray;
+	margin: 3% .75% 15px .75%;
+	padding-bottom: 20px;
+}
+
+body{
+	margin: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+#menu1{
+background-color: #07889b;
+}
+
+#menu2{
+background-color: #66b9bf;
+}
+#menu3{
+background-color: #eeaa78;
+}
+
+
+.menu{
+	position: relative;
+	border: 1px solid;
+	margin: .75%;
+	padding-right: 1em;
+	padding-left: 1em;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	border-radius: 5px;
+	background-color: #eae3ea;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.menu-title{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: .5em 1em .5em 1em;
+	float:right;
+	border-bottom: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 5px;
+	margin: 0px;
+	text-align: center;
+	background-color: #e37222;
+	}
+
+
+
+p{
+	clear: right;
+	margin-top: 3em;
+	border-top: 1px solid #ffffff;
+	padding-top: .75em;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+/****************** DESKTOP *************************/
+@media (min-width: 992px){
+	.col-lg-4{
+		width: 31.833%;
+		float: left;
+	}
+}
+
+
+/****************** TABLET *************************/
+@media (min-width: 768px) and (max-width: 991px){
+	
+	.col-md-6{
+		width: 48.5%;
+		float: left;
+	}
+	.col-md-12{
+		width: 98.5%;
+		float: left;
+	}
+}
+
+
+/****************** MOBILE*************************/
+@media (max-width: 767px){
+	.col-sm-12{
+		width: 98.5%;
+		float: left;
+	}
+
+}
